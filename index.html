@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>CS476</title>
+  </head>
+  <body>
+    <h1>CS 476: Automata Theory and Formal Languages</h1>
+    <h3>Fall 2025<br>
+    </h3>
+    <ul>
+      <li>Instructor: <a href="http://www.cs.bilkent.edu.tr/%7Ecalkan/">Can
+          Alkan</a></li>
+      <ul>
+        <li>Office hours:&nbsp; By appointment </li>
+        <ul>
+          <li>Public calendar (changes frequently): <a href="http://cs.bilkent.edu.tr/%7Ecalkan/calendar.html">http://cs.bilkent.edu.tr/~calkan/calendar.html</a></li>
+        </ul>
+      </ul>
+      <li>TAs:&nbsp;  </li>
+      <ul>      
+        <li><a href="https://www.alkanlab.org/team/z%C3%BClal-bing%C3%B6l/">Zülal
+            Bingöl</a>.&nbsp; Email: (zulal.bingol @ bilkent)</li>
+        <li><a href="https://www.alkanlab.org/team/muti/">Muti
+            Kara</a>.&nbsp; Email: (muti.kara @ bilkent)</li>        
+        <li><a href="https://tr.linkedin.com/in/mshcs">Murat &#350;ahin</a>.Email:
+          (m.sahin @ bilkent)</li>
+      </ul>
+      <li>Graders (quiz objections only):</li>
+      <ul>
+        <li><a href="http://www.alkanlab.org/team/ecem-ilg%C3%BCn/">Ecem &#304;lgün</a>.
+          Email: (ecem.ilgun @ bilkent)</li>
+        <li><a href="https://www.alkanlab.org/team/banu-cavlak/">
+            Meryem Banu Cavlak</a>. Email: (banu.cavlak @ bilkent)</li>
+        <li><a href="https://www.alkanlab.org/team/rafi-%C3%A7oktala%C5%9F/">Muhammet
+            Rafi Çoktala&#351;</a>. Email: (rafi.coktalas @ bilkent)</li>
+      </ul>
+      <ul>
+      </ul>
+      <li>Class hours: </li>
+      <ul>
+        <li>Tuesdays 13:30 - 15:20 and Fridays 9:30 - 10:20. </li>
+      </ul>
+      <li>Class room: </li>
+      <ul>
+        <li>EE-05</li>
+      </ul>
+    </ul>
+    <br>
+    Finite automata, regular expressions, regular languages and their
+    properties, the pumping lemma. Context free grammars and languages, normal
+    forms, pushdown automata, the pumping lemma for the CFLs. Turing machines
+    and their properties. Decidability and undecidable languages. Complexity
+    theory, NP-completeness. Credit units: 3 ECTS Credit units: 6, Prerequisite:
+    CS 201/211. <br>
+    <br>
+    <strong>Textbook:</strong> <a href="http://www.cengage.com/search/productOverview.do?Ntt=sipser%7C%7C991938321204392568016032450701059771599&amp;N=0&amp;Ntk=all%7C%7CP_EPI">
+      Introduction to the Theory of Computation</a>,&nbsp; Cengage Learning,
+    Michael Sipser <br>
+    <ul>
+    </ul>
+    <p><strong>Grading:</strong> There will be one midterm exam (25%), a final
+      exam (35%). 3 classworks (10% each), and 10 quizzes (1% each).</p>
+    <p><strong>Quizzes: </strong>At least 10 quizzes, every Tuesday (starting
+      in the second week) unless otherwise announced.</p>
+    <p><strong>Classworks</strong> will be announced, we expect to hold 3
+      classworks total. Classworks will be open notes (only the PDF files below
+      - print a clean copy).</p>
+    <p><strong>Midterm and final exams</strong> are closed notes, closed book.</p>
+    <p><strong>Passing Grade</strong>: No predetermined grade to pass the
+      course.</p>
+    <p><strong>FZ Policy:</strong> [(Classworks' Average x 0.3) + (Midterm x
+      0.25)] should be at least 18 (out of 55). </p>
+    <p><strong>Makeup Policy:</strong> Medical report holders will be entitled
+      for the midterm make up, and <strong>ONLY ONE</strong> classwork makeup
+      in the last week of the semester. Classwork makeup will be comprehensive,
+      and both midterm and classwork makeups will definitely be more difficult.
+      We will give no makeups for the quizzes.</p>
+    <strong><br>
+    </strong>
+    <p><strong><span style="color: red;"> Grading Policy: Note that I do not
+          discuss with students about grades. Therefore, I will not answer any
+          questions about the passing grades and/or students' requests for
+          passing the course. Any emails sent to this effect will be omitted.</span></strong></p>
+    <p><strong><span style="color: red;"><br>
+        </span></strong> </p>
+    <hr style="color: black;">
+    <!--
+    <li><strong>Planned Lecture Cancellations</strong></li>
+    <li><br>
+    </li>
+    <li>The following lectures are canceled. </li>
+    <ul>
+      <li>October 4</li>
+      <li>November 15</li>
+    </ul>
+    -->
+    
+    <li>
+      <hr style="width: 100%; height: 2px;"></li>
+    <br>
+    <strong>Outline (tentative):<br>
+      <br>
+    </strong><em>Lecture notes below are downloadable only within Bilkent
+      network. Use <a href="http://vpn.bilkent.edu.tr/">VPN</a> to access from
+      home.</em><br>
+    <strong> <br>
+    </strong>
+    <table style="width: 1566px;" border="1">
+      <tbody>
+        <tr>
+          <td>Week</td>
+          <td style="width: 369.367px;">Topic</td>
+          <td>Lecture Notes</td>
+          <td>Notes (tentative)</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Introduction &amp; Finite Automata</td>
+          <td><a href="notes/0-intro.pdf">0-intro.pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://docs.google.com/presentation/d/1_edyCFHWVBAfUvIX6S1R4I5FDG4N6VCPZR54LTD0Kic/edit?usp=sharing">intro
+              slides</a><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Finite Automata</td>
+          <td><a href="notes/1-dfa.pdf">1-dfa.pdf</a><span style="text-decoration: underline;"><br>
+            </span><a href="notes/dfaMod.c">dfaMod.c</a><span style="text-decoration: underline;"><br>
+            </span></td>
+          <td style="height: 38px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Finite Automata</td>
+          <td><a href="notes/2-nfa.pdf">2-nfa.pdf</a><br>
+          </td>
+          <td style="height: 19px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Regular expressions and languages </td>
+          <td><a href="notes/3-re.pdf">3-re.pdf</a><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Context-free grammars and languages </td>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Context-free grammars and languages</td>
+          <td><a href="notes/4-cfg.pdf">4-cfg.pdf</a> </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td> Context-free grammars and languages </td>
+          <td><a href="notes/5-pda.pdf">5-pda.pdf</a><br>
+          </td>
+          <td>Classwork 1<br>
+          </td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Pushdown automata</td>
+          <td><br>
+          </td>
+          <td>Midterm<br>
+          </td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td style="height: 19px;"> <br>
+          </td>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td> Turing machines </td>
+          <td><a href="notes/6-tm.pdf">6-tm.pdf</a> </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Decidability, Reducibility</td>
+          <td> <br>
+          </td>
+          <td style="height: 19px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Complexity theory and NP-completeness </td>
+          <td><a href="notes/7-decidability.pdf">7-decidability.pdf</a><br>
+            <a href="notes/8-reducibility.pdf">8-reducibility.pdf</a> </td>
+          <td style="height: 19px;">Classwork 2 </td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td style="height: 19px;">Complexity theory and NP-completeness </td>
+          <td> <br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td> Complexity theory and NP-completeness </td>
+          </td>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <strong> </strong>
+    <p>&nbsp;<br>
+    </p>
+    <h2>Important information for exams and classworks</h2>
+    <p>The following is on the cover pages of your midterm and final exams. Most
+      students do not read this *valuable* information, but everyone SHOULD.
+      These rules apply to classworks as well:</p>
+    <ol>
+      <li>Write legibly, and make your answers clear.</li>
+      <li>Provide comprehensible diagrams for state machines (DFA, NFA, PDA,
+        TM).</li>
+      <li>Unintelligible answers may fail to receive credit.</li>
+      <li>All proofs should be presented formally, and should follow the styles
+        presented in class.</li>
+      <li>Handwaving arguments will be considered incorrect.</li>
+      <li>Ambiguous explanations and proofs will be considered incorrect. </li>
+      <li>Use notations the same way as described in class.</li>
+      <li>Closed book, closed notes, no cheat sheets. Classworks are open notes
+        (PDF files above).</li>
+      <li>NO phones/tablets/laptops etc. other than those you need to use to
+        join the Zoom session.</li>
+    </ol>
+    <p>The rules 4 and 5 above point out the fact that this course is a FORMAL,
+      THEORY course. All proofs should be presented as formal expressions, the
+      same way discussed in class. Long paragraphs/sentences of trying to
+      explain a possible answer does not mean that you will receive any credit.
+      <strong>This is not a humanities course, do not write essays to answer the
+        questions.</strong></p>
+    <strong>Let us reiterate</strong>
+    <ol>
+      <li>THIS IS A THEORY COURSE. THIS IS A MATHEMATICS COURSE. <strong>NOTATIONS
+          ARE EVERYTHING.</strong> USE NOTATIONS ONLY AS DESCRIBED IN CLASS, AND
+        ONLY AS DESCRIBED IN CLASS. NOTATIONS YOU HAVE SEEN ELSEWHERE (INCLUDING
+        THE TEXTBOOK) MAY CAUSE DEDUCTIONS IN CREDITS TOTALING UP TO ALL THE
+        POINTS A QUESTION IS WORTH. WE WILL NOT TRY TO UNDERSTAND WHAT YOU ARE
+        PRESENTING WHEN ANSWERING A QUESTION, WILL NOT GUESS WHAT YOUR NOTATIONS
+        MEAN.</li>
+      <li>THERE IS NO SUCH THING AS "PROOF BY EXAMPLE" EXCEPT "PROOF BY
+        CONTRADICTION".</li>
+      <li>JUST BECAUSE YOU WROTE "<span style="font-style: italic;">SOMETHING</span>",
+        IT DOESN'T MEAN YOU WILL GET ANY PARTIAL CREDIT IF YOUR ANSWER HAS
+        NOTHING TO DO WITH THE QUESTION.</li>
+    </ol>
+    <p><br>
+    </p>
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li>Content coverage for classworks &amp; exams: We mention this several
+        times in class. </li>
+      <ul>
+        <li>Quizzes:</li>
+        <ul>
+          <li>Q1 (DFA); Q2 (NFA); Q3 (RegEx); Q4 (RL Pumping Lemma)</li>
+          <li>Q5 (CFG); Q6 (PDA); Q7 (CFL Pumping Lemma)</li>
+          <li>Q8 (TM); Q9 (decidability/undecidability); Q10 (NP)</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>Classwork 1: regular languages (up to &amp; including pumping lemma
+          for RL)</li>
+        <li>Classwork 2: context-free languages (up to &amp; including pumping
+          lemma for CFL)</li>
+        <li>Classwork 3: computability (TMs, undecidability) + complexity</li>
+        <li>Midterm: regular languages + context-free languages</li>
+        <li>Final: all</li>
+      </ul>
+      <li>I need at least grade (C/C+/B etc ..) to be able to graduate. Can you
+        please increase my grade?</li>
+      <ul>
+        <li>No.</li>
+      </ul>
+      <li>This is my last semester, I just need to pass the course.</li>
+      <ul>
+        <li>You should study.</li>
+      </ul>
+      <li>I am likely receiving an FZ and fail the course. Can you lower the FZ
+        threshold and let me take the final exam?</li>
+      <ul>
+        <li>No.</li>
+      </ul>
+      <li>I need at least some specific grade to keep my cGPA above some
+        threshold. Can you please give me at least (something)?</li>
+      <ul>
+        <li>No.</li>
+      </ul>
+      <li>I think I deserve more partial credits from question X in
+        exam/classwork Y.</li>
+      <ul>
+        <li>No.</li>
+      </ul>
+      <li>Which topics should I prioritize to study more for the midterm and/or
+        final exam?</li>
+      <ul>
+        <li>All of them.</li>
+      </ul>
+    </ul>
+    <ol>
+    </ol>
+    <h2><strong></strong></h2>
+    <strong><br>
+      <br>
+    </strong><br>
+  </body>
+</html>
